@@ -1,6 +1,15 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zekkontro/lomment-cine/main/images/icon.png" width="64" height="64" alt="Lomment-Cine Logo">
+  <h1>Lomment-Cine</h1>
+</div>
+
 # Lomment-Cine VSCode Extension
 
 Lomment-Cine is a VSCode extension that helps you maintain clean code by safely storing unused code blocks instead of leaving them as comments. This extension promotes code cleanliness while ensuring you don't lose potentially useful code segments.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zekkontro/lomment-cine/main/images/introduction.gif" alt="Lomment-Cine Usage Demo" width="800">
+</div>
 
 ## Why Lomment-Cine?
 

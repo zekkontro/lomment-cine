@@ -2,7 +2,10 @@
   "name": "lomment-cine",
   "displayName": "Lomment-Cine",
   "description": "Store unused code instead of commenting them out",
+  "repository": "https://github.com/zekkontro/lomment-cine",
   "version": "0.0.1",
+  "publisher": "BeratKurt",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -12,7 +15,7 @@
   "activationEvents": [
     "onStartupFinished"
   ],
-  "main": "./out/extension.js",
+  "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
