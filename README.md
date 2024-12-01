@@ -1,71 +1,98 @@
-# lomment-cine README
+# Lomment-Cine VSCode Extension
 
-This is the README for your extension "lomment-cine". After writing up a brief description, we recommend including the following sections.
+Lomment-Cine is a VSCode extension that helps you maintain clean code by safely storing unused code blocks instead of leaving them as comments. This extension promotes code cleanliness while ensuring you don't lose potentially useful code segments.
+
+## Why Lomment-Cine?
+
+- ✨ **Keep Your Code Clean**: Instead of cluttering your codebase with commented-out code, store it safely
+- 🔄 **Safe Code Management**: Never lose potentially useful code while maintaining clean files
+- 📊 **Better Code Review**: Makes code reviews easier by removing unused code from view
+- 🎯 **Improved Code Quality**: Helps maintain high code quality standards by reducing clutter
+- 🔍 **Easy Access**: Quickly find and restore stored code when needed
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- 📦 Store selected code blocks and remove them from their original location
+- 🔍 Search and filter stored code
+- 👁️ Preview stored code
+- ⏮️ Restore code to original locations
+- 🗑️ Delete unwanted stored code
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+### Storing Code
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Select the code block you want to store
+2. Right-click and select "Store Unused Code" or click the archive icon in the editor title bar
+3. The selected code will be removed and safely stored
+
+### Viewing Stored Code
+
+- CodeLens buttons will appear on lines where code is stored:
+  - 👁️ View Code: Preview the code
+  - ⏮️ Restore: Restore code to its original location
+  - 🗑️ Delete: Permanently delete stored code
+
+### Searching Code
+
+1. Click the search icon in the editor title bar
+2. Search through stored code
+3. Perform these actions on found code:
+   - View
+   - Restore
+   - Copy to Clipboard
+   - Delete
+
+## Best Practices
+
+- Use Lomment-Cine instead of commenting out code during refactoring
+- Store experimental code variations for easy comparison
+- Keep your codebase clean while preserving potentially useful code
+- Use the search feature to organize and manage stored code effectively
+
+## Installation
+
+1. Search for "Lomment-Cine" in VSCode Marketplace
+2. Click "Install"
+3. Restart VSCode
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code 1.80.0 or higher
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension currently doesn't have any custom settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No known issues at this time.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
+- Initial release
+- Basic code storing and restoration features
+- CodeLens integration
+- Code search functionality
 
-Initial release of ...
+## Contributing
 
-### 1.0.1
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Fixed issue #.
+## License
 
-### 1.1.0
+This project is licensed under the MIT License.
 
-Added features X, Y, and Z.
+## Contact
+
+For questions and suggestions, please use the Issues section.
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Note**: This extension is perfect for developers who want to maintain clean, readable code while safely preserving unused code segments. Instead of cluttering your files with commented-out code, use Lomment-Cine to store and manage your code snippets effectively. It's an essential tool for maintaining code quality and cleanliness in your projects.
